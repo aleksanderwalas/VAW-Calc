@@ -93,24 +93,6 @@ export const AppNavigator = () => {
         }}
       />
       <Tab.Screen
-        name="Changelog"
-        component={ChangelogScreen}
-        options={{
-          title: 'Historia zmian',
-          tabBarLabel: 'Logi',
-          tabBarIcon: ({ color, size }) => <Clock color={color} size={size} />,
-        }}
-      />
-      <Tab.Screen
-        name="License"
-        component={LicenseScreen}
-        options={{
-          title: 'Licencja',
-          tabBarLabel: 'Licencja',
-          tabBarIcon: ({ color, size }) => <FileText color={color} size={size} />,
-        }}
-      />
-      <Tab.Screen
         name="Knowledge"
         component={KnowledgeScreen}
         options={{
